@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .can {
+        width: 900px;
+        height: 500px;
+        background-color: rgb(174, 175, 148);
+        border: 1px solid black;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(6, 200, 249);
+        border: 1px solid black;
+        padding: 10px;
+        /* transition-property: background-color, transform; */
+        /* transition-property: transform; */
+        /* transition-property: all;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s; */
+        /* transition: all 5s ease-in-out 1s; */
+        transition: all 5s cubic-bezier(0.63, -0.07, 0.72, 1.13)  1s;
+      
+    }
+
+    .tanslate {
+        transform: translateX(80vh) translatey(80vh) scale(2);
+        background-color: blueviolet;
+    color: aliceblue;
+    
+    }
+</style>
+
+
+<body>
+    <div class="can">
+        <div class="box tanslate ">box</div>
+    </div>
+</body>
+
+</html>
