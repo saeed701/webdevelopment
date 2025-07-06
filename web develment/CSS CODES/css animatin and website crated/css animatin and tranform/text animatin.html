@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: monospace;
+    }
+
+    .typewriter {
+        white-space: nowrap;
+        color: aliceblue;
+        font-size: 30px;
+        overflow: hidden;
+        border-right: 2px double white;
+        animation: typing 5s steps(40) forwards,
+         blink 0.6s step-end infinite;
+    }
+
+
+    @keyframes typing {
+        from {
+            width: 0px;
+        }
+
+        to {
+            width: 510px;
+        }
+
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+</style>
+
+<body>
+    <div class="typewriter">Muhammad is becoming a CSS Pro!</div>
+</body>
+
+</html>

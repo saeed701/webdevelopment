@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        width: 150px;
+        height: 50px;
+        border: 1px none black;
+        text-align: center;
+        border-radius: 30px;
+        line-height: 3;
+        background-color: rgb(10, 184, 241);
+        color: white;
+        margin: 50px auto;
+        
+        cursor: pointer;
+        transition: background-color, transform 2s ease-in-out,transform 2s ease-in-out; 
+    }
+    .box:hover{
+        transform: rotate(1080deg);
+        background-color: rgb(9, 218, 135);
+    }
+
+</style>
+
+<body>
+    <div class="box">Rotate Me</div>
+</body>
+
+</html>
